@@ -1,0 +1,20 @@
+nav{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+.nav-container{
+    display: flex;
+}
+
+.nav-item{
+    border: 1px solid;
+    padding: 8px;
+}
+
+.logo{
+    border: 1px solid;
+}
