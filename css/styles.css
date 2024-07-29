@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 nav{
     /* border: 1px solid; */
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 6px;
     align-items: center;
 }
 
@@ -20,6 +22,12 @@ nav{
     height: 70px;
     width: 70px;
     background-size: cover;
+}
+
+main{
+    padding-top: 20px; 
+    border-top: 2px solid #ccc; 
+    text-align: center; 
 }
 
 .head{
@@ -87,4 +95,69 @@ button{
     border: none;
     border-radius: 4px;
 
+}
+
+.package{
+    background-color: #e4e4e4;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins';
+}
+
+.closing{
+    margin-top: 50px; 
+    padding-top: 20px; 
+    border-top: 2px solid #ccc; 
+    text-align: center; 
+    text-align: center;
+
+}
+
+.last-button{
+    width: 15%;
+    height: 35px;
+    font-family: 'Poppins';
+    margin-bottom: 25px;
+}
+
+footer {
+    margin-top: 50px; 
+    padding-top: 20px; 
+    border-top: 2px solid #ccc; 
+    text-align: center; 
+}
+
+.logo-closing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* adjust as needed */
+}
+
+
+.logo-closing{
+    background-image: url("https://i.pinimg.com/736x/71/d7/89/71d789c5814e84a3df3eda1038b28760.jpg") ;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.akhiran{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.tnc{
+    margin-right: 15px;
+    color: #bebdbd;
+    
+}
+.year{
+    margin-left: 10px;
+    color: #bebdbd;
 }
