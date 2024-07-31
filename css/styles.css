@@ -303,7 +303,50 @@ footer {
     color: #6d6a6a;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
+    /* .utama {
+        flex-direction: column;
+    }
+
+    .konten-utama-banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .konten-utama-form {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .package {
+        width: 90%;
+        margin: 10px auto;
+    } 
+} */
+
+@media (max-width: 480px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        flex-direction: column;
+        margin: 5px 0;
+    }
+
+    .tnc, .year {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
     .utama {
         flex-direction: column;
     }
@@ -326,24 +369,5 @@ footer {
     .package {
         width: 90%;
         margin: 10px auto;
-    }
-}
-
-@media (max-width: 480px) {
-    .nav-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-item {
-        flex-direction: column;
-        margin: 5px 0;
-    }
-
-    .tnc, .year {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin-top: 10px;
     }
 }
