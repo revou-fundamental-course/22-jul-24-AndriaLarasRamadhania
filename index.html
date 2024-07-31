@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Skincare</title>
     <link rel="stylesheet" href="css\styles.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <nav>
@@ -13,16 +14,16 @@
     </header>
     
     <section class="nav-container">
-        <a class="nav-item">Home</a>
-        <a class="nav-item">Our Package</a>
-        <a class="nav-item">Call Us</a>
+        <a class="nav-item"><b>Home</b></a>
+        <a class="nav-item"><b>Our Package</b></a>
+        <a class="nav-item"><b>Call Us</b></a>
     </section>
     </nav>
 
     <main>
         <article class="head">
             <header>
-                <h1 style="font-size: 30px;">Your Trusted Travel Agent</h1>
+                <h1 style="font-size: 30px;">Your Trusted Skincare</h1>
             </header>
 
             <p style="font-size: 20px; margin-bottom: 35px;">Your happiness is our happiness</p>
@@ -33,37 +34,51 @@
                 <div class="konten-utama-banner"></div>
 
                 <div>
-                    <p style="margin-left: 6%; margin-right: 6%; margin-bottom: 2%; color: #6d6a6ae7;"><i>Andria Laras Ramadhania merupakan mahasiswa semester 5 Universitas Lampung.</i></p>
+                    <p style="margin-left: 3%; margin-right: 6%; margin-bottom: 2%; color: #6d6a6ae7;"><i>SKIN1004 is an award-winning hypoallergenic & natural skincare brand from Korea. Our main ingredient, CENTELLA ASIATICA, originating from the untouched nature of MADAGASCAR, is one of the world's finest Centella.</i></p>
                 </div>
 
                 <div class="main-item">
                     <div class="item-icon"></div>
 
                     <div>
-                        <h3>Andria Laras</h3>
-                        <p>Ramadhania</p>
+                        <h3>SKIN1004</h3>
+                        <p>Brand from Korea</p>
                     </div>
                 </div>
 
+                <div class="main-item-1">
+                    <h3>About SKIN1004</h3>
+                    <!-- <p style="margin-bottom: 20px;">Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product.</p> -->
+                    <div class="feature">
+                        <div class="feature-icon">1</div>
+                        <div class="feature-content">
+                            <p>SKIN1004 is an award-winning hypoallergenic & natural skincare <br>brand from Korea. Our main ingredient, CENTELLA ASIATICA, <br>originating from the untouched nature of MADAGASCAR, is one <br>of the world's finest Centella.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">2</div>
+                        <div class="feature-content">
+                            <p>Our core value is to distribute our well-crafted natural skincare <br>products at affordable prices. We are proud to be a clean <br>beauty brand and have acquired certifications to prove so, such <br>as CGMP, Beauty without Bunnies, cruelty-free & vegan <br>through PETA, etc. We will always continue to practice ethical <br>and clean beauty business practices.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
             </article>
 
-            <form action="" class="konten-utama-form">
+            <form action="" class="konten-utama-form" id="contactForm">
                 <div>
                     <h3>Contact Us</h3>
-                    <p style="color: #969292e7;">Sales akan menghubungi dalam 1x24 jam</p>
-                </div><br><br>
-
+                    <p style="color: #827d7de7;">Sales akan menghubungi dalam 1x24 jam</p>
+                </div><br>
                 <label for="name">Your Name: </label><br>
-                <input type="text" value="First and last name" style="color: #969292e7;"><br><br>
-
-                <label for="address">Email Address: </label><br>
-                <input type="text" value="example@email.com" style="color: #969292e7;"><br><br>
-
+                <input type="text" id="name" name="name" placeholder="First and last name"><br><br>
+                <label for="email">Email Address: </label><br>
+                <input type="text" id="email" name="email" placeholder="example@email.com" ><br><br>
                 <label for="age">Age: </label><br>
-                <input type="text" value="Your age" style="color: #969292e7;"><br><br>
-
-                <button type="button">Submit</button>
-
+                <input type="text" id="age" name="age" placeholder="Your age" ><br><br>
+                <button type="submit"><b>Submit</b></button>
             </form>
         </section>
 
@@ -73,45 +88,53 @@
 
         <section class="packages">
             <div class="package">
-                <div class="package-icon"></div>
+                <div class="package-icon-1">
+
+                </div>
                 <div class="package-content">
-                    <h3>Bali</h3>
-                    <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
+                    <h3>Sunscreen</h3>
+                    <p>A lightweight physical sunscreen with a slight tint that blurs the skin and pores to a natural matte finish.</p>
                 </div>
             </div>
             <div class="package">
-                <div class="package-icon"></div>
+                <div class="package-icon-2">
+
+                </div>
                 <div class="package-content">
-                    <h3>Japan</h3>
-                    <p>Travel dan wisata di Japan. kunjungi cagar budaya dan kuliner yang menarik</p>
+                    <h3>Toner</h3>
+                    <p>A gentle exfoliating toner that can be used daily to help exfoliate dead skin cells and is suitable for sensitive skin.</p>
                 </div>
             </div>
             <div class="package">
-                <div class="package-icon"></div>
+                <div class="package-icon-3">
+
+                </div>
                 <div class="package-content">
-                    <h3>Singapore</h3>
-                    <p>This description supports and extends the bullet point above.</p>
+                    <h3>Serum</h3>
+                    <p>All rounder ampoule with great qualities for redness and irritation relief, including high quality Madagascan Centella Asiatica extract.</p>
                 </div>
             </div>
             <div class="package">
-                <div class="package-icon"></div>
+                <div class="package-icon-4">
+
+                </div>
                 <div class="package-content">
-                    <h3>Bandung</h3>
-                    <p>This description supports and extends the bullet point above.</p>
+                    <h3>Cleansing Oil</h3>
+                    <p>A lightweight, oil-based cleanser that gently melts away makeup, dirt, oils, and sunscreen, without stinging the eye area.</p>
                 </div>
             </div>
             <div class="package">
-                <div class="package-icon"></div>
+                <div class="package-icon-5"></div>
                 <div class="package-content">
-                    <h3>Surabaya</h3>
-                    <p>This description supports and extends the bullet point above.</p>
+                    <h3>Moisturizer</h3>
+                    <p>A moisturizer that helps calm, moisturizer, and nourish skin damaged by harmful external environment.</p>
                 </div>
             </div>
             <div class="package">
-                <div class="package-icon"></div>
+                <div class="package-icon-6"></div>
                 <div class="package-content">
-                    <h3>Third Feature</h3>
-                    <p>This description supports and extends the bullet point above.</p>
+                    <h3>Calming Pad</h3>
+                    <p>An essence-rich toner pad with Centella and Panthenol soothes and hydrates the skin in a simple 2-minute step.</p>
                 </div>
             </div>
         </section>
@@ -120,8 +143,7 @@
         <article class="closing">
             <h1 style="margin-bottom: 30px">Let's Order For Your Happiness!!</h1>
 
-            <p style="margin-bottom: 45px;">Moci adalah kue Jepang yang terbuat dari beras ketan, ditumbuk sehingga lembut <br>dan lengket, 
-                kemudian dibentuk menjadi bulat.</p>
+            <p style="margin-bottom: 45px;">Whatever touches the skin must be pure. Let us deliver you the untouched nature <br>and its purity to your skin, to help you discover your best skin.</p>
 
             <button type="button" class="last-button"><b>CALL TO ACTION</b></button>
         </article>
